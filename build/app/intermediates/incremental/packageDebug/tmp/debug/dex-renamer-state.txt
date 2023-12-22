@@ -1,4 +1,4 @@
-#Tue Nov 14 06:48:43 JST 2023
-base.0=/Users/yoshidanorihiro/AndroidStudioProjects/mealApplication/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Fri Dec 22 15:16:18 JST 2023
+base.0=/Users/yoshidanorihiro/Documents/GitHub/meal-application/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
