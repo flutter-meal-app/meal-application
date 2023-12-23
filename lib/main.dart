@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'splash_screen.dart'; // 追加
 import 'camera.dart';
-import 'home.dart';
+import 'gallery.dart';
 import 'setting.dart';
 
 void main() {
@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState(){
     super.initState();
     _pages = [
-      HomePage(),
+      GalleryPage(),
       CameraPage(),
       SettingPage(),
     ];
@@ -64,16 +64,16 @@ class _MyHomePageState extends State<MyHomePage> {
         },
         items: const [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'HOME',
+            icon: Icon(Icons.photo_library_rounded),
+            label: '',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.camera),
-            label: 'CAMERA',
+            icon: Icon(Icons.camera_alt),
+            label: '',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.settings),
-            label: 'SETTING',
+            label: '',
           ),
         ],
       ),
